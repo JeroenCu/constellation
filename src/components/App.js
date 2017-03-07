@@ -15,7 +15,6 @@ class App extends Component {
 		}
 		else if (this.props.loggedIn != false && window.location.pathname === "/")
 		{
-			console.log("a")
 			return <Home />
 		}
 		else return (this.props.children)
@@ -23,7 +22,7 @@ class App extends Component {
 
 	render() {
 		return(<div>
-		<Link activeClassName="active" to='/home'><h1>Constellation</h1></Link>		 
+		<Link activeClassName="active" to='/home'><h1><i className="fa fa-star-half-o" aria-hidden="true"></i> - Constellation - <i className="fa fa-star-half-o" aria-hidden="true"></i></h1></Link>
 		 <div className="login">{this.renderBody.bind(this)()}</div>
 		 </div>
 		)

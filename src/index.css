@@ -4,13 +4,6 @@ body {
   text-align: center; 
 }
 
-input[type="text"] {
-	line-height: 20px;
-}
-input {
-	display: block;
-}
-
 .movie img {
 	display: inline-block;
 	float: left;
@@ -18,8 +11,8 @@ input {
 	height: 80px;
 }
 
-input[type="text"] , div.movie {
-	display: inline-block;
+input {
+	display: block;
 	width: 400px;
 	padding: 10px;
 	margin: 10px auto;
@@ -29,4 +22,30 @@ input[type="text"] , div.movie {
 
 .btn:hover {
 	cursor: pointer;
+}
+
+.btn {
+	display: inline-block;
+	border: 1px #000 solid;
+	background: #ccc;
+	width: 250px;
+}
+
+.login-form {
+	text-align: center;
+}
+
+.metro.kep-login-facebook {
+	display: block;
+	position: relative;
+	left: 40%;
+	width: 20%;
+}
+
+h1 {
+	width: 100%;
+	height: 55px;
+	padding-top: 20px;
+	background-color: #444;
+	color: #fff;
 }
