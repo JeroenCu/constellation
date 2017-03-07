@@ -1,0 +1,3 @@
+Provider: links App to Store
+
+Reducer: always (!) needs to return state
